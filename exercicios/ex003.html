@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible"content="ie=edge">
+    <title>Primeiro JavaScript</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(155, 212, 212);   
+            font-size: 20px;    
+        }
+        h1{
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <h1> Olá Mundo! </h1>
+    <p>Ja me livrei da maldição!!</p>
+    <script>
+        var n1 = Number(window.prompt('Digite um número'))
+        var n2 = Number(window.prompt('Digite outro número'))
+        var s = n1 + n2
+        window.alert(`A soma entre ${n1} e ${n2} é igual a ${s}`  )
+        //Concatenação
+        // (number + number) para adição
+        // (string + string) para Concatenação
+        // conversão de string para number Number.parseint(n) para numero inteiro Number.parseFloat(n) para numeros com virgula
+        // Conversão de number para string String(n) ou n.toString()
+        // para melhor formatacao de number usar o `${}`
+        // s.lenght [quantos caracteres a string tem]
+        //s.toUpperCase() [tudo para 'MAIUSCULAS']
+        //s.toLowerCase() [tudo para 'minusculas']
+    </script>
+</body>
+</html>
