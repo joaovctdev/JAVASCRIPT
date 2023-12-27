@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qual sua nacionalidade?</title>
+</head>
+<body>
+    <h1>Em que pais você mora?</h1>
+    Escreva aqui em qual pais voce reside: <input type="text" name="txtpais" id="txtp">
+    <input type="button" value="Enviar" onclick="verificar()">
+    <div id="res">
+
+    </div>
+    <script>
+        
+        function verificar(){
+            var txtp = window.document.querySelector('input#txtp')
+            var res = window.document.querySelector ('div#res')
+            var pais = String(txtp.value)
+            res.innerHTML = `<p> Voce mora em ${pais}`
+                if (pais != brasil){
+                    res.innerHTML = `<p> Voce é Gringo`
+                }
+                res.innerHTML += `<p> Parabéns </p>`
+
+                
+        }
+    </script>
+</body>
+</html>

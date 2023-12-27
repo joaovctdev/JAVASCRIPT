@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(43, 150, 185);
+    font: normal 1em Arial;
+}
+h1{
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    
+}
+section{
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.404);
+}
+div{
+    
+    padding: 10px;
+}
+img{
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+}
+footer{
+    color: white;
+    text-align: center;
+}
+footer>p>a{
+    text-decoration: none;
+    color: white;
+    font-style: italic;
+}
+footer>p>a:hover{
+    text-decoration: underline;
+}
